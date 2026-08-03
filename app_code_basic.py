@@ -12,7 +12,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-st.set_page_config(page_title='Telco Customer Churn Prediction', page_icon="📈", layout='narrow')
+st.set_page_config(page_title='Telco Customer Churn Prediction', layout='wide')
 
 @st.cache_resource
 def load_artifects():
