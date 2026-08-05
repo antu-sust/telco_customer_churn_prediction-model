@@ -13,6 +13,10 @@ import streamlit as st
 
 st.set_page_config(page_title='Telco Customer Churn Prediction', page_icon=":clapper:", layout='wide')
 
+'''
+This is the basic app for predicting Churn possibilities on loaded dataset 
+'''
+
 @st.cache_resource
 def load_artifacts():
     model = joblib.load('churn_model.pkl')
