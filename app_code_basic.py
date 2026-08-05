@@ -11,7 +11,7 @@ import pandas as pd
 import joblib
 import streamlit as st
 
-st.set_page_config(page_title='Telco Customer Churn Prediction', layout='wide')
+st.set_page_config(page_title='Telco Customer Churn Prediction', page_icon=":clapper:", layout='wide')
 
 @st.cache_resource
 def load_artifacts():
