@@ -43,7 +43,7 @@ def FEATURE_ENGINEERING():
     }.items():
         if k in row:
           row[k]=v
-    return pd.DataFrame([row], columns= feature_names)
+    return pd.DataFrame([row], columns=feature_names)
 
 
 if st.button('Predict'):
