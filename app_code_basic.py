@@ -63,3 +63,7 @@ if st.button('Predict'):
   st.metric('Churn Probability', f'{proba[1]*100:.2f}%')
   st.metric('Non-Churn Probability', f'{proba[0]*100:.2f}%')
 
+if st.button("🔄 Reset"):
+
+    st.rerun()
+
