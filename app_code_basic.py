@@ -18,7 +18,7 @@ def load_artifacts():
     model = joblib.load('churn_model.pkl')
     scaler= joblib.load('scaler.pkl')
     feature_names= joblib.load('feature_names.pkl')
-    return model, scaler, features_names
+    return model, scaler, feature_names
 
 model, scaler, features_names = load_artifacts()
 
